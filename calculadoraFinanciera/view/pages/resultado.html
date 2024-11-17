@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado de Liquidación</title>
+    <link rel="stylesheet" href="../../view/public/css/resultado.css">
+    <link rel="icon" href="../public/img/iconoSura-removebg-preview.png">
+</head>
+
+<body>
+    <header class="cabecera">
+        <div class="logo">
+            <img src="../public/img/logoConTrigre.png" alt="">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="../pages/home.html"><b>Home</b></a></li>
+                <li><a href="../pages/calculo.html"><b>Liquidacion</b></a></li>
+                <li><a href="../pages/registro.html"><b>Registro</b></a></li>
+                <li><a href="../pages/historial.html"><b>Historial</b></a></li>
+                <li><a href="../pages/estadisticas.html"><b>Estadisticas</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Resultado de Liquidación</h1>
+    
+    <table border="1">
+        <tr>
+            <th>Concepto</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <td>Salario proporcional</td>
+            <td id="sueldoProporcional"></td>
+        </tr>
+        <tr>
+            <td>Vacaciones proporcionales</td>
+            <td id="vacacionesProporcionales"></td>
+        </tr>
+        <tr>
+            <td>Prima</td>
+            <td id="prima"></td>
+        </tr>
+        <tr>
+            <td>Indemnización</td>
+            <td id="indemnizacion"></td>
+        </tr>
+        <tr>
+            <td><strong>Total Liquidación</strong></td>
+            <td id="totalLiquidacion"></td>
+        </tr>
+    </table>
+
+    <script src="../../view/public/js/resultado.js"></script>
+</body>
+</html>

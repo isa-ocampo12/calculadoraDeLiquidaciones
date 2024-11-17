@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: "Euclid Circular A", "Poppins";
+    background: #e1f5fe;
+}
+
+.cabecera{
+    width: 100%;
+    height: 100px;
+    background-color: #0072c6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    width: 250px;
+    height: 250px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    margin-right: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+li:hover{
+    background-color: blue;
+}
+
+
+h1 {
+    text-align: center;
+    color: #0073e6;
+}
+
+.stats-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.stat-bar {
+    margin: 10px 0;
+}
+
+.stat-bar label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.progress {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 20px;
+    border-radius: 5px;
+    background-color: #0073e6;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+
